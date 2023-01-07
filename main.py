@@ -20,3 +20,27 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 /______/______/______/______/______/______/______/______/______/______/[TomekK]
 *******************************************************************************
 ''')
+print("Welcome to Treasure Hunt!!")
+
+direction = input("You are at a cross road where do you go left or right? ").lower()
+
+if direction == "left":
+    action = input("You find a small river what do you do? wait or swim ?").lower()
+    if action == ""
+else:
+    print("Game over!!")
+    print("A head or elephants chase and kill you")
+    print('''
+          _.-- ,.--.
+             .'   .'    /
+             | @       |'..--------._
+            /      \._/              '.
+           /  .-.-                     \
+          (  /    \                     \
+           \\      '.                  | #
+            \\       \   -.           /
+             :\       |    )._____.'   \
+              "       |   /  \  |  \    )
+                      |   |./'  :__ \.-'
+                      '--'
+    ''')  
