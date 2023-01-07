@@ -21,7 +21,7 @@ if elif and else
 
 #### Preview:
 
-![treasure hunt](./tip_calculator.png)
+![treasure hunt](./treasure.png)
 
 ## How to run this on your device
 
