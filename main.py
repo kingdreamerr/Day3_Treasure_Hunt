@@ -28,6 +28,52 @@ if direction == "left":
     action = input("You find a small river what do you do? wait or swim ?").lower()
     if action == "wait":
         print("You come across three doors 1) red 2) blue and 3) Yello which one will you choose")
+        door = input(" 1, 2, or 3: ")
+        if door == "3":
+            print("You win!!")
+            print("You found the treasure!")
+            print(''' 
+            
+            ''')
+        elif door == "1":
+            print("Game over!!")
+            print("A big fire burned you alive")
+            print('''
+                (  .      )
+            )           (              )
+                    .  '   .   '  .  '  .
+            (    , )       (.   )  (   ',    )
+            .' ) ( . )    ,  ( ,     )   ( .
+        ). , ( .   (  ) ( , ')  .' (  ,    )
+        (_,) . ), ) _) _,')  (, ) '. )  ,. (' )
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            ''')
+        elif door == "2":
+            print("GAME OVER!")
+            print("You are killed by witches making potions")
+            print('''
+                        
+               _..--.._       _..--.      _..--..
+             ,'      ,'`.   ,','.--.\   ,' \   `.`.
+            /  /    /  /|  : : /  _ \:  |\  \    \ \
+           /  :    :  /`.  | |:| ,'' _``. \
+         | ,;,   .  `:\ _:   | `,/_\.   :`/;'  ,   .:\ )
+         `'/'   _ \   \:\(  _|__`>_/`' /(:/   /     .\` 
+          /:  .'  ,`.._|_\\'  ( _=`;._//_|_..'`      \\
+          :: /   '|    (__=`, :`||| `,.__)     \      :
+          | \           \`.\\__\;|| //`|/       :     |
+          |  `.._____.-,`'| \\___||// /`-._           |
+          :         | : ,<''_\\,.|//_`>.  :`._       ;:
+          \         ; ; )`-..______..-'(  :\  `-.__.' /
+          ;        / /|:                : | `.._____.':
+         :      _.' / ||                | |   `.       :
+         :  _.-'   /  ::                ; :     `-.____;
+          \;     ,'   ( \              /  )\          /
+         ,'    ,'____,' ,`-,.______..-') (__\        _`.
+        (___..'>_>____`.`.'._)_\_>._)-' ,'___`._________) SSt
+
+            ''')
+
     else:
         print("Game Over!")
         print("You got killed by sharks")
