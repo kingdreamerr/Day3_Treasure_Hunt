@@ -26,7 +26,26 @@ direction = input("You are at a cross road where do you go left or right? ").low
 
 if direction == "left":
     action = input("You find a small river what do you do? wait or swim ?").lower()
-    if action == ""
+    if action == "wait"
+
+    else:
+        print("Game Over!")
+        print("You got killed by sharks")
+        print('''
+        
+
+                     ^`.                     o
+     ^_              \  \                  o  o
+     \ \             {   \                 o
+     {  \           /     `~~~--__
+     {   \___----~~'              `~~-_     ______          _____
+      \                         /// a  `~._(_||___)________/___
+      / /~~~~-, ,__.    ,      ///  __,,,,)      o  ______/    \
+      \/      \/    `~~~;   ,---~~-_`~= \ \------o-'            \
+                       /   /            / /
+                      '._.'           _/_/
+                                      ';|\
+        ''')
 else:
     print("Game over!!")
     print("A head or elephants chase and kill you")
